@@ -5,7 +5,7 @@ sap-work-center-sql は、そのままクラウド環境におけるアプリケ
 ## 前提条件  
 sap-work-center-sql は、SQL の SAP とのデータ連携にあたり、オンプレミス版である（＝クラウド版ではない）SAPS4HANA API の利用を前提としています。  
 クラウド版APIを利用する場合は、ご注意ください。  
-https://api.sap.com/api/OP_WORKCENTER_0001/overview
+https://api.sap.com/api/OP_WORKCENTER_0001/overview  
 本レポジトリ の sql設定ファイルの内容は、上記URL の API 仕様を前提としています。  
 
 ## sqlの設定ファイル  
