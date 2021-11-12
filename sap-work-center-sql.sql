@@ -18,6 +18,6 @@ CREATE TABLE `sap-work-center`
     `CostCenter`             varchar(10) DEFAULT NULL,
     `LastChangeDate`         date DEFAULT NULL,
     `WorkCenterIsToBeDeleted` varchar(1) DEFAULT NULL,
-    PRIMARY KEY (`WorkCenterInternalID`, `WorkCenterTypeCode`),
+    PRIMARY KEY (`WorkCenterInternalID`, `WorkCenterTypeCode`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
