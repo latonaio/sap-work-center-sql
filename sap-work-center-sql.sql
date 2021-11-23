@@ -15,8 +15,6 @@ CREATE TABLE `sap-work-center`
     `CapacityCategoryCode`   varchar(3) DEFAULT NULL,
     `ValidityStartDate`      date DEFAULT NULL,
     `ValidityEndDate`        date DEFAULT NULL,
-    `CostCenter`             varchar(10) DEFAULT NULL,
-    `LastChangeDate`         date DEFAULT NULL,
     `WorkCenterIsToBeDeleted` varchar(1) DEFAULT NULL,
     PRIMARY KEY (`WorkCenterInternalID`, `WorkCenterTypeCode`)
 ) ENGINE = InnoDB
