@@ -1,7 +1,7 @@
 CREATE TABLE `sap-work-center`
 (
-    `WorkCenterInternalID`   varchar(8) DEFAULT NULL,
-    `WorkCenterTypeCode`     varchar(2) DEFAULT NULL,
+    `WorkCenterInternalID`   varchar(8) NOT NULL,
+    `WorkCenterTypeCode`     varchar(2) NOT NULL,
     `WorkCenter`             varchar(8) DEFAULT NULL,
     `WorkCenter_desc`        varchar(40) DEFAULT NULL,
     `Plant`                  varchar(4) DEFAULT NULL,
