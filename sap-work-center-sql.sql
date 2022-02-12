@@ -1,4 +1,4 @@
-CREATE TABLE `sap-work-center`
+CREATE TABLE `sap_work_center_data`
 (
     `WorkCenterInternalID`   varchar(8) NOT NULL,
     `WorkCenterTypeCode`     varchar(2) NOT NULL,
